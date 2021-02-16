@@ -1,20 +1,18 @@
 /*!
  * Start Bootstrap - Resume v5.0.7 (https://startbootstrap.com/template-overviews/resume)
- * Copyright 2013-2019 Start Bootstrap
+ * Copyright 2013-2021 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
 
 body {
-  font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol", "Noto Color Emoji";
-  padding-top: 20px;
+  font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  padding-top: 54px;
   color: #868e96;
 }
 
 @media (min-width: 992px) {
   body {
-    /* padding-top: 0; */
+    padding-top: 0;
     padding-left: 17rem;
   }
 }
@@ -25,9 +23,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 700;
   text-transform: uppercase;
   color: #343a40;
@@ -46,29 +42,15 @@ h3 {
   font-size: 2rem;
 }
 
-.lead {
-  font-size: 1rem;
-  font-weight: 400;
-}
-
-.experience-text {
-  font-size: 1rem;
-  font-weight: 400;
-  width: 70%;
-  display: block;
-}
-
-.experience-time {
-  font-size: 1.3rem;
+p.lead {
+  font-size: 1.15rem;
   font-weight: 400;
 }
 
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
-  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-size: 1.5rem;
 }
 
@@ -90,11 +72,7 @@ h3 {
 }
 
 .social-icons a:hover {
-  background-color: #6eaea7;
-}
-
-ul li i {
-  color: #6eaea7;
+  background-color: #BD5D38;
 }
 
 .dev-icons {
@@ -102,7 +80,7 @@ ul li i {
 }
 
 .dev-icons .list-inline-item i:hover {
-  color: #6eaea7;
+  color: #BD5D38;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -136,13 +114,12 @@ ul li i {
     display: -ms-flexbox;
     display: flex;
     margin: auto auto 0;
-    /* padding: 0.5rem; */
+    padding: 0.5rem;
   }
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
-    border: 0.5rem solid #ffc007;
-    background-color: whitesmoke;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
   }
   #sideNav .navbar-collapse {
     display: -webkit-box;
@@ -172,19 +149,7 @@ ul li i {
   }
 }
 
-@media (max-width: 640px) {
-  #sideNav {
-    display: none;
-  }
-}
-.resume-date {
-  width: 40%;
-}
-
-.resume-date {
-  width: 40%;
-}
-/* section.resume-section {
+section.resume-section {
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
   max-width: 75rem;
@@ -208,26 +173,20 @@ section.resume-section .resume-item .resume-date {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
   }
-} */
+}
 
 .bg-primary {
-  background-color: #6eaea7 !important;
+  background-color: #BD5D38 !important;
 }
 
 .text-primary {
-  color: #6eaea7 !important;
-}
-
-.job-font-size {
-  font-size: 0.9em;
+  color: #BD5D38 !important;
 }
 
 a {
-  color: #6eaea7;
+  color: #BD5D38;
 }
 
-a:hover,
-a:focus,
-a:active {
+a:hover, a:focus, a:active {
   color: #824027;
 }
